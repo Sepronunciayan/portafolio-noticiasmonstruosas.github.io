@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="semanario sobre curiosidades" />
+
+  <title>principal</title>
+  <style>
+ /* --------------------------------------------------------- */
+.titulo-boton,
+h1 {
+    color: rgba(0, 0, 0, 0.405);
+    font-size: 1.5em;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-align: center;
+}
+
+.targeta-menu {
+    width: 150px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: rgba(1, 220, 228, 0);
+    box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.329);
+    color: #00000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 790px;
+    left: 22px;
+    margin: auto;
+    border-radius: 1px solid gray;
+    z-index: 999;
+position: sticky;
+bottom: 15px;
+}
+
+.targeta-menu:hover {
+    color: rgba(0, 0, 0, 0);
+    background: #3f3f3f83;
+    color: #fff;
+}
+
+h1:hover {
+    color: white;
+}
+
+
+
+/* --------------------------------------------------------- */
+</style>
+</head>
+
+<body style="
+      margin: 4px;
+      background-image: url(IMAGENES/fondo-galletas.webp);
+      background-size: 20%;
+    ">  
+  <!-- table de header por cambiar y no hacerlo con divs -->
+  <table style=" margin: 0;">
+    <tr>
+      <td style="
+      background-image: url(IMAGENES/cielo-azul-nubes.avif);
+            background-color: yellow;
+            background-size: cover;
+            display: inline-flex;
+            border-radius: 30px;
+            position: absolute;
+            text-align: center;
+            width: 99%;
+          ">
+        <h1 style="
+              font-family: Georgia, 'Times New Roman', Times, serif;
+              text-align: center;
+              color:white;
+              width: 30%;
+              font-size: 300%;
+              margin: auto;
+              margin-top: 40px;
+              text-shadow: 5px 8px 5px black;
+            ">
+          NOTICIAS MONSTRUOSAS
+        </h1>
+        <img src="IMAGENES/azul-galleta.png" alt="cara del monstruo de las galletas"
+          style="width: 15%; margin: 20px;" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <!-- por cambiar hice el menu con imagenes de fondo fue dificil pero se pudo -->
+        <nav style="
+              text-align: center;
+              display: inline-flex;
+              width: 55%;
+              margin-left: 12.5%;
+              margin-top: 10.5%;
+              position: relative;
+            
+            ">
+          <a href="" style="text-decoration: none">
+            <img src="IMAGENES/galleta.png" alt="boton con foma de galleta" width="65%" style="z-index: -2" />
+            <p style="
+                  color: white;
+                  display: block;
+                  margin-top: -65px;
+                  font-size: 11px;
+                  text-shadow: 3px 3px 2px black;
+                ">
+              <b>PORTADA</b>
+            </p>
+          </a>
+          <a href="frikis.html" style="text-decoration: none">
+            <img src="IMAGENES/galleta.png" alt="boton con foma de galleta" width="65%" style="z-index: -2" />
+            <p style="
+                  color: white;
+                  display: block;
+                  margin-top: -65px;
+                  font-size: 11px;
+                  text-shadow: 3px 3px 2px black;
+                ">
+              <b>PERSONAJES<br />FRIKIS</b>
+            </p>
+          </a>
+          <a href="inventos.html" style="text-decoration: none">
+            <img src="IMAGENES/galleta.png" alt="boton con foma de galleta" width="65%" style="z-index: -2" />
+            <p style="
+                  color: white;
+                  display: block;
+                  margin-top: -65px;
+                  font-size: 11px;
+                  text-shadow: 3px 3px 2px black;
+                ">
+              <b>ALUCINANTES<br />INVENTOS</b>
+            </p>
+          </a>
+          <a href="monstruos.html" style="text-decoration: none">
+            <img src="IMAGENES/galleta.png" alt="boton con foma de galleta" width="65%" style="z-index: -2" />
+            <p style="
+                  color: white;
+                  display: block;
+                  margin-top: -65px;
+                  font-size: 11px;
+                  text-shadow: 3px 3px 2px black;
+                ">
+              <b>MONSTRUOS DE <br />
+                TEMPORADA</b>
+            </p>
+          </a>
+          <a href="#CONTACTO" style="text-decoration: none">
+            <img src="IMAGENES/galleta.png" alt="boton con foma de galleta" width="65%" style="z-index: -2" />
+            <p style="
+                  color: white;
+                  display: block;
+                  margin-top: -65px;
+                  font-size: 11px;
+                  text-shadow: 3px 3px 2px black;
+                ">
+              <b>CONTACTOS</b>
+            </p>
+          </a>
+        </nav>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <main style="display: inline-flex; width: 100%;">
+  
+    <aside style="
+          width: 30%;
+          /* height: 1933px; */
+          background-color:rgba(255, 255, 255, 0.905);
+          margin: 10px 0px 10px 10px;
+         padding: 1%;
+         position: static;
+        "> 
+        
+        <a href="https://sepronunciayan.github.io/portafolio.github.io/#view3">
+          <section class="targeta-menu">
+              <H1 class="titulo-boton">Volver al<br> Portafolio</H1>
+          </section> </a>
+      <!-- en el aside izquierdo esta todo dentro de secciones para saber que contiene cada cosa -->
+      <section
+        style="background-image: url(IMAGENES/champan.png); background-color:rgba(255, 255, 0, 0.711);border: 1px solid grey; padding: 2%; text-align: justify; background-size: 100%;background-size: cover; ">
+
+        <h1 style="text-align: center; font-size: 250%;">
+          ¡Bienvenidos a nuestra web <br>y feliz 30 aniversario
+          del semanario
+          sobre <br>curiosidades del mundo geek!
+        </h1>
+        <div style="background-color: rgba(255, 255, 255, 0.342);">
+          <p>
+            Estamos emocionados de celebrar tres décadas de explorar y compartir
+            todo lo relacionado con la cultura geek, desde videojuegos hasta
+            cómics, tecnología y mucho más. <br /><br />
+            Durante este tiempo, hemos disfrutado de innumerables
+            descubrimientos, debates apasionados y momentos de pura diversión.
+            Gracias a todos nuestros lectores y seguidores por su continuo apoyo
+            y entusiasmo. Sin ustedes, no podríamos haber llegado tan lejos.
+            <br /><br />
+            Esperamos que disfruten de esta celebración especial y que sigan
+            acompañándonos en este viaje geek por muchos años más. ¡Que viva la
+            cultura geek y que sigan las curiosidades del mundo geek!
+          </p>
+        </div>
+      </section><br><br>
+      <section
+        style="background-color:rgba(255, 255, 0, 0.711);border: 1px solid grey; padding: 2%; text-align: justify;">
+        <img src="IMAGENES/30 aniversario.jpg" alt=" imagen de 30 aniversario" style=" width: 100%; margin: auto;">
+        Hoy es un día muy especial en el que celebramos tres décadas de éxitos, logros y momentos inolvidables. Desde
+        que abrimos nuestras puertas por primera vez, hemos crecido, nos hemos adaptado a los cambios del mercado y
+        hemos seguido trabajando con pasión y dedicación para ofrecer el mejor servicio a nuestros clientes.
+      </section><br><br>
+      <section style="background-color:rgba(255, 255, 0, 0.711);border: 1px solid grey; padding: 2%; text-align: justify; background-size: 100%;background-size: cover; position: sticky;
+      top: 65px;">
+        <p>Publicidad:</p>
+        <div style="background-color: rgba(255, 255, 255, 0.342); ">
+
+          <video autoplay loop muted width="100%">
+            <source src="VIDEO/Coca-Cola.mp4" type="video/mp4">
+            <source src="Coca-Cola.ogg" type="video/ogg">
+          </video>
+
+        </div>
+      </section><br><br>
+    </aside>
+    <article style="
+          width: 70%;
+          background-color: rgba(255, 255, 0, 0.711);
+          margin: 10px;
+          padding: 1%;
+          color: black;
+          text-align: justify;
+        ">
+      <section style="background-color: rgba(255, 255, 255, 0.836); width: 96%; padding: 2%;">
+        <h1 style="text-align: center; font-size: 250%;">LAS DIEZ TEORÍAS CONSPIRATIVAS MÁS LOCAS DE LA ACTUALIDAD</h1>
+        <!-- menu de el articulo -->
+        <details>
+          <summary>Menu</summary>
+          <ol>
+            <li><a href="#La Luna es falsa" style="text-decoration: none; color: black;">La Luna es
+                falsa</a></li>
+            <li><a href="#Rociamiento químico desde las nubes" style="text-decoration: none; color: black;">Rociamiento
+                químico desde las nubes</a></li>
+            <li><a href="#La Tierra es plana" style="text-decoration: none; color: black;">La Tierra es plana</a></li>
+            <li><a href="#‘Microchips’ en las vacunas" style="text-decoration: none; color: black;">‘Microchips’ en las
+                vacunas</a></li>
+            <li><a href="#5G para controlar nuestra mente" style="text-decoration: none; color: black;">5G para
+                controlar nuestra mente</a></li>
+            <li><a href="#El pornomarxismo" style="text-decoration: none; color: black;">El pornomarxismo</a></li>
+            <li><a href="#El gran reemplazo" style="text-decoration: none; color: black;">El gran reemplazo</a></li>
+            <li><a href="#El 11-S fue planeado desde dentro" style="text-decoration: none; color: black;">El 11-S fue
+                planeado desde dentro</a></li>
+            <li><a href="#Walt Disney, Frozen y el algoritmo" style="text-decoration: none; color: black;">Walt Disney,
+                Frozen y el algoritmo</a></li>
+            <li><a href="#El Área 51 y los extraterrestres" style="text-decoration: none; color: black;">El Área 51 y
+                los extraterrestres</a></li>
+          </ol>
+        </details>
+
+        <p>Si bien es cierto que las teorías conspirativas siempre han existido, pareciera que en los últimos años se
+          han multiplicado, especialmente tras la pandemia. La incertidumbre, acompañada del caos y la desinformación,
+          es un extraordinario caldo de cultivo para hacerlas pulular. Lo más curioso del fenómeno es que adopta
+          distintas identidades dependiendo de la nación donde surja: en Estados Unidos se dice que John F. Kennedy fue
+          asesinado por el propio Gobierno, mientras que en Alemania se ha hablado sobre la posibilidad de que Hitler
+          huyera a Latinoamérica o que, en España, el cadáver de Franco había sido exhumado hace años del Valle de los
+          Caídos.
+
+          También hay quienes creen que Elvis sigue vivo o que Paul McCartney murió y fue suplantado por un doble (igual
+          que Avril Lavigne). Pero todavía hay más: a continuación, algunas de las teorías conspirativas más
+          surrealistas que existen actualmente.</p>
+
+        <aside
+          style=" background-color: rgba(0, 255, 255, 0.193); border-bottom: 2px solid black; border-top: 2px solid black; width: 80%; padding: 10px; text-align: justify; margin: auto;">
+          <b>Nada es tan efectivo para que pululen los bulos como los tiempos de incertidumbre. Lejos de lo que pueda
+            parecer en esta era del conocimiento, todavía existen cientos de conspiraciones que versan desde los
+            alienígenas del Área 51 estadounidense hasta la inoculación de ‘microchips’ o el terraplanismo.</b>
+        </aside>
+        <h1> Javier Santaolalla nos explica porque es peligroso los comunicadores de <b>fakes news</b></h1>
+        <iframe width="100%" height="600px" src="https://www.youtube.com/embed/87pGTT68izY"
+          title="Por qué es tan peligroso ver estas PENDEJ**** #dateunvlog" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><br>
+        <p>
+        <h2 id="La Luna es falsa">La Luna es falsa</h2>
+        <img src="IMAGENES/luna.webp" alt="imagen de la luna" width="100%" height="50%"><br><br>
+        Una de las más extendidas a lo largo de los años es que Neil Amstrong, en realidad, no pisó la Luna en 1969,
+        sino que todo fue una pantomima de la NASA. Un secreto que la CIA se ha encargado de proteger durante medio
+        siglo. Pero el asunto va más lejos: hay quienes creen que, directamente, la Luna no existe, sino que se trata de
+        una proyección.
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+        <h2 id="Rociamiento químico desde las nubes">Rociamiento químico desde las nubes</h2>
+        <img src="IMAGENES/rompenubes.jpg" alt="imagen avion con estela de vapor" width="100%" height="50%"><br><br>
+        ¿Ha visto alguna vez cómo el conducto de escape de los aviones deja una estela blanca en los cielos azules? Hay
+        quienes creen que ese rastro causado por la condensación y los gases en la atmósfera es la prueba de que se nos
+        está rociando con sustancias químicas para el control de la natalidad, provocar enfermedades y modificar el
+        clima. Algunos afirman que el Gobierno nos esteriliza y otros consideran que las «estelas químicas» (chemtrails)
+        son geoingeniería para que los agricultores tengan que comprarle semillas a Monsanto.
+
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+        <h2 id="La Tierra es plana">La Tierra es plana (o hueca)</h2>
+        <img src="IMAGENES/tierra plana.avif" alt="imagen de la luna" width="100%" height="50%"><br><br>
+        En los últimos años, el terraplanismo se ha propagado por todo el mundo, incluso celebrando reuniones
+        multitudinarias en Estados Unidos. Pero España no se queda atrás: en el último semestre, por ejemplo, se han
+        desarrollado eventos terraplanistas en salas de cine de Barcelona y Menorca. Los terraplanistas afirman que «se
+        han quitado la venda» ante supuestos siglos de engaño y aseguran que nuestro planeta es plano y estacionario –en
+        vez de esférico y orbital, como evidencia la ciencia–. Por otro lado, hay quienes piensan que la Tierra es hueca
+        y que, incluso, podría haber toda una civilización de seres avanzados que vive dentro.
+
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+        <h2 id="‘Microchips’ en las vacunas">‘Microchips’ en las vacunas</h2>
+        <img src="IMAGENES/newsvaccinemicrochip.jpg" alt="imagen de geringilla con chip dentro" width="100%"
+          height="50%"><br><br>
+        Desde el comienzo de las investigaciones, los negacionistas de la pandemia y los antivacunas cargaron en contra
+        de las inyecciones de la covid. El cantante Miguel Bosé, por ejemplo, afirmó en múltiples ocasiones que se
+        trataba de experimentos genéticos. Pero muchos conspiranoicos sostienen que las vacunas sirven para inocularnos
+        microchips de rastreo y que las antenas de 5G –una tecnología de comunicación inalámbrica de quinta generación
+        con mayor velocidad de transferencia– pueden leer el supuesto código de barras y monitorear a la población.
+
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+        <h2 id="5G para controlar nuestra mente">5G para controlar nuestra mente</h2>
+        <img src="IMAGENES/tecnologia-5G.png" alt="imagen de la tierra con satelites haciendo la fotma de un 5 y una G"
+          width="100%" height="50%"><br><br>
+        Siguiendo en esa misma línea, hay personas que sostienen que el 5G es una herramienta para el control mental.
+        Otros dicen que sus torres de servicio desataron la pandemia o que producen cáncer. La difusión de este tipo de
+        teorías ha llevado a que algunas personas destruyan las torres, convencidas de que son nocivas.
+
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+        <h2 id="El pornomarxismo">El pornomarxismo</h2>
+        <img src="IMAGENES/porno marxismo.jpeg" alt="imagenes de mujeres sexualizando un show" width="100%"
+          height="50%"><br><br>
+        Según ha explicado la politóloga Laura Méndez, el pornomarxismo es una expresión utilizada en el ensayo El libro
+        negro de la izquierda, que afirma que hay una revolución que está impulsando «el homosexualismo ideológico y la
+        pedofilia». Esta teoría conspiranoica de ultraderecha asegura que las minorías que han sido discriminadas
+        histórica y sistemáticamente ahora son la clase dominante.
+
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+        <h2 id="El gran reemplazo">El gran reemplazo</h2>
+        <img src="IMAGENES/gran remplazo.jpg" alt="imagen de la luna" width="100%" height="50%"><br><br>
+        Asimismo, entre la extrema derecha ha calado esta teoría conspirativa racista. Originaria de Francia, asegura
+        que la izquierda, las élites liberales y las oenegés tienen un complot para sustituir a la población blanca de
+        origen europeo y cristiano por pueblos no europeos y musulmanes, especialmente africanos y árabes, a través de
+        la inmigración masiva.
+
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+        <h2 id="El 11-S fue planeado desde dentro">El 11-S fue planeado desde dentro</h2>
+        <img src="IMAGENES/11s.webp" alt=" imagenes del atentado del 11s" width="100%" height="50%"><br><br>
+        Existen múltiples teorías de la conspiración sobre el ataque a las Torres Gemelas de Nueva York. Entre las más
+        difundidas está que el Gobierno estadounidense organizó los ataques o que sabía de ellos de antemano y permitió
+        que sucedieran. Esto, supuestamente, para restringir las libertades civiles y facilitar que se estableciese un
+        Gobierno mundial autoritario.
+
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+        <h2 id="Walt Disney, Frozen y el algoritmo">Walt Disney, Frozen y el algoritmo</h2>
+        <img src="IMAGENES/olaffrozen.webp" alt="imagen de la luna" width="100%" height="50%"><br><br>
+        Walt Disney está congelado y la compañía lanzó la película Frozen para hackear el algoritmo, dicen los
+        conspiranoicos. Esta leyenda urbana afirma que el empresario se congeló criogénicamente mientras esperaba una
+        cura contra el cáncer de pulmón y que sería descongelado una vez fuera hallada. Quienes creen en ello aseguran
+        que la empresa creó los dibujos animados de Frozen para que cuando la gente buscara en Google en inglés «Disney
+        congelado» saliera esta película. El año pasado, Tim Burton confesó que, durante un tiempo, buscó el cuerpo
+        congelado en los estudios.
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+
+
+        <h2 id="El Área 51 y los extraterrestres">El Área 51 y los extraterrestres</h2>
+        <img src="IMAGENES/ufo.png" alt="imagen dividida a la mitad de el area 51 y un alien" width="100%"
+          height="50%"><br><br>
+        Algunas personas sostienen que el Área 51, una instalación de la Fuerza Aérea de Estados Unidos, es un centro de
+        experimentación con vida extraterrestre. Todo comenzó en los años ochenta, cuando un exempleado aseguró a los
+        medios que había vistos fotos de autopsias a alienígenas y que el Gobierno usaba la base militar para examinar
+        naves extraterrestres.
+
+        <br><br>
+        <a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+            alt="volver al menu" title="volver al indice" width="50px"></a>
+        </p>
+        </td>
+        </tr>
+        </table>
+      </section>
+    </article>
+  </main><a href="#" style="text-decoration: none; color: black; margin: auto;"><img src="ICONOS/home.png"
+      alt="volver al menu" title="volver al indice" width="50px"></a>
+  <footer id="CONTACTO" style="width: 100%; margin: 0; ">
+    <div style="
+          background-color:yellow;
+          background-size: contain;
+          height: 150px;
+          border-radius: 30px;
+          padding: 20px;
+        ">
+      <h1 style="color: black; margin-left: 5%">contactenos:</h1>
+
+      <div style="width: 250px; margin: 1.5%; margin-left: 20%; margin-top: -4%;">
+        <a href="https://www.instagram.com/"><img src="ICONOS/instagram.png" alt="clica para ir a instagram"
+            width="50px" /></a>
+        <a href="https://www.facebook.com/?locale=es_ES"><img src="ICONOS/facebook.png" alt="clica para ir a facebook"
+            width="48px" /></a>
+        <br />
+        <a href="https://twitter.com/?lang=es"><img src="ICONOS/twitter.png" alt="clica para ir a twitter"
+            width="50px" /></a>
+        <a href="mailto:jbrand.18f@gmail.com"><img src="ICONOS/gmail.png" alt="clica para ir a gmail"
+            width="50px" /></a>
+        <a href="nosotros.html"><button style="display: inline; margin-left: 50%; margin-top: -40.90%; display: flex;">
+            <b>Sobre nosotros:</b></button></a><br>
+        <p style="display: inline; margin-left: 50%; margin-top: -40.90%; display: inline-flex;"> Direccion: calle sin salida
+          #5 <br> tel:652347487</p>
+        <img src="IMAGENES/monstruo-de-las-galletas.png" alt="cara del monstruo de las galletas"
+          style="width: 200%; margin-left: 200%; margin-top: -82.90%;">
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
